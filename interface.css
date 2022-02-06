@@ -13,6 +13,11 @@ body {
   color: #444;
 }
 
+main {
+  display: flex;
+  gap: 4.8rem;
+}
+
 .nav-icon-main {
   font-size: 4.8rem;
   fill: #22b8cf;
@@ -22,12 +27,12 @@ body {
   padding: 1.8rem 4.8rem;
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  gap: 2.8rem;
 }
 
 .items-box {
   display: flex;
-  gap: 1.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -41,4 +46,36 @@ body {
   text-decoration: none;
   font-size: 1.8rem;
   color: #444;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: rgb(204, 204, 204);
+  padding: 1.2rem 1.8rem;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+}
+
+.main-box {
+  padding: 1.8rem 4.8rem;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.26);
+}
+
+.title-main-box {
+  display: flex;
+  gap: 4.4rem;
+  align-items: center;
+}
+
+.arrow-icon {
+  font-size: 2.6rem;
+  fill: #444;
+}
+
+.habib-main {
+  font-size: 2.4rem;
+}
+
+.one-tweet {
+  font-size: 1.8rem;
 }
