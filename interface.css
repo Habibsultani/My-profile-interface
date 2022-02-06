@@ -8,7 +8,29 @@ html {
   font-size: 62.5%;
 }
 
-.nav-icon {
+.nav-icon-main {
   font-size: 4.8rem;
   fill: #22b8cf;
+}
+
+.nav-items {
+  padding: 1.8rem 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.items-box {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.nav-icon {
+  font-size: 4.8rem;
+  fill: #444;
+}
+
+.name-items {
+  font-size: 3.2rem;
 }
