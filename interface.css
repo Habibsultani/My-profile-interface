@@ -15,12 +15,12 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 40rem 1fr 40rem;
+  grid-template-columns: 38rem 1fr 42rem;
   gap: 4.8rem;
 }
 
 .nav-icon-main {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   fill: #22b8cf;
 }
 
@@ -29,23 +29,25 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2.8rem;
+  font-size: 3.2rem;
+  font-weight: 400;
 }
 
 .items-box {
   display: flex;
-  gap: 4.8rem;
+  gap: 4rem;
   align-items: center;
 }
 
 .nav-icon {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   fill: #444;
 }
 
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #444;
 }
 
@@ -163,4 +165,25 @@ main {
 .resident {
   font-size: 2.4rem;
   color: #777;
+}
+
+.folowers {
+  position: absolute;
+  top: 73rem;
+  left: 4rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.folowing {
+  font-size: 2rem;
+}
+
+.folower {
+  font-size: 2rem;
+}
+
+.folowing strong,
+.folower strong {
+  font-weight: 700;
 }
