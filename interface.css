@@ -218,3 +218,23 @@ main {
   background-position: 1rem 5rem;
   background-color: #f3efef;
 }
+
+.you-might-know {
+  margin: 3.2rem auto;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.people-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 0.5rem;
+}
+
+.poeple-photo {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 3rem;
+}
