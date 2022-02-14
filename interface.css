@@ -15,8 +15,8 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 38rem 1fr 42rem;
-  gap: 4.8rem;
+  grid-template-columns: 38rem 1fr 44rem;
+  gap: 3.2rem;
 }
 
 .nav-icon-main {
@@ -200,4 +200,21 @@ main {
 .folowing strong,
 .folower strong {
   font-weight: 700;
+}
+
+.search-section {
+  padding: 1.2rem 2.4rem 2.4rem 0.4rem;
+}
+
+.search input {
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  padding: 1.2rem;
+  border-radius: 5rem;
+  background-image: url("search-icon.png");
+  background-repeat: no-repeat;
+  background-position: 1rem 5rem;
+  background-color: #f3efef;
 }
