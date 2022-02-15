@@ -64,6 +64,8 @@ main {
   color: #fff;
   border-radius: 4rem;
   margin-top: 1.2rem;
+  border: 6px solid #ddd;
+  /* box-shadow: 0 0 2.4rem rgba(51, 51, 51, 0.363); */
 }
 /* .nav-link:hover,
 .nav-link:active {
@@ -152,7 +154,7 @@ main {
 
 .prof-bio {
   position: absolute;
-  top: 63rem;
+  top: 62.5rem;
   left: 4rem;
   font-size: 2.2rem;
   color: #777;
@@ -162,7 +164,7 @@ main {
   display: flex;
   gap: 2.4rem;
   position: absolute;
-  top: 68rem;
+  top: 70rem;
   left: 4rem;
 }
 
@@ -183,7 +185,7 @@ main {
 
 .folowers {
   position: absolute;
-  top: 73rem;
+  top: 75rem;
   left: 4rem;
   display: flex;
   gap: 3.2rem;
@@ -225,6 +227,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  background-color: #eee;
+  border-radius: 1.8rem;
 }
 
 .you-might-title {
@@ -237,9 +241,10 @@ main {
 .people-box {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  gap: 0.5rem;
+  gap: 1.2rem;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1.8rem;
 }
 
 .poeple-photo {
@@ -267,7 +272,9 @@ main {
   text-decoration: none;
   display: inline-block;
   padding: 0.8rem 2.4rem;
-  background-color: #22b8cf;
+  background-color: #444;
+  font-weight: 600;
+  color: #fff;
   border-radius: 2.4rem;
 }
 
