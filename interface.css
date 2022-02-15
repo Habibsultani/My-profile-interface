@@ -135,6 +135,8 @@ main {
   top: 30rem;
   left: 4rem;
   border-radius: 10rem;
+  /* border: 5px solid #ddd; */
+  box-shadow: 0 0 0 0.7rem rgba(0, 0, 0, 0.102);
 }
 
 .prof-name {
@@ -236,6 +238,7 @@ main {
   font-family: inherit;
   color: #333;
   font-weight: 700;
+  margin-bottom: 1.8rem;
 }
 
 .people-box {
@@ -279,7 +282,8 @@ main {
 }
 
 .username-per {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   color: #888;
   justify-self: left;
 }
