@@ -227,10 +227,19 @@ main {
   gap: 2.4rem;
 }
 
+.you-might-title {
+  font-size: 2.6rem;
+  font-family: inherit;
+  color: #333;
+  font-weight: 700;
+}
+
 .people-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 2fr 2fr;
   gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .poeple-photo {
@@ -243,11 +252,27 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  align-items: center;
 }
 
 .name-per {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #444;
+}
+
+.follow-btn:link,
+.follow-btn:visited {
+  justify-self: end;
+  font-size: 1.8rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8rem 2.4rem;
+  background-color: #22b8cf;
+  border-radius: 2.4rem;
+}
+
+.username-per {
+  font-size: 1.6rem;
+  color: #888;
+  justify-self: left;
 }
